@@ -25,8 +25,8 @@ def ZER(reg):
     return False
 
 
-# Troque o nome do arquivo aqui
-arq = 'soma.txt'
+# Defina o caminho do arquivo aqui
+arq = 'exemplos/soma.txt'
 
 registradores = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
 instrucao = {'ADD': ADD, 'SUB': SUB}
